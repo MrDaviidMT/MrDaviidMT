@@ -1,6 +1,6 @@
-<h1 align="center">Hi, I'm DavidMT <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
+![](./banner.png)
 
-![](https://github.com/halfrost/halfrost/blob/master/icons/header_.png)
+<h1 align="center">Hi, I'm DavidMT <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 ### About me 👀
 
