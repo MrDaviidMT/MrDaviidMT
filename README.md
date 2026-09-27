@@ -10,7 +10,7 @@
 I love to expand my knowledge in both areas.
 
 🌱 I’m currently learning ... 
-  - AWS (Amazon Web Services) and working with Virtual Machines.
+  - AWS (Amazon Web Services).
   - Terraform.
   - Python.
 
