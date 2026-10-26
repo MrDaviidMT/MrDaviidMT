@@ -15,7 +15,7 @@ Web ERP to manage residents, medical records, medication, incidents, staff time 
 - **Stack:** Laravel · MySQL · Tailwind CSS · Alpine.js
 - **Infrastructure:** Docker (Nginx + PHP-FPM + MySQL) deployed on AWS EC2 (Ubuntu, VPC, Security Groups)
 - **Highlights:** row locking in transactions to prevent double room assignments, automatic audit log of every change, soft deletes for clinical traceability
-
+> 🚧 **Under active refactoring.** I'm rebuilding this project with improved security, automated tests and a CI/CD pipeline
 ---
 
 ## 🛠️ Tech stack
