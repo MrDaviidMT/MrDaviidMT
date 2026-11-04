@@ -13,9 +13,9 @@ Higher Technician in Web Application Development (DAW), currently studying Netwo
 Web ERP to manage residents, medical records, medication, incidents, staff time tracking and visits, with role-based access for 10 staff profiles.
 
 - **Stack:** Laravel · MySQL · Tailwind CSS · Alpine.js
-- **Infrastructure:** Docker (Nginx + PHP-FPM + MySQL) deployed on AWS EC2 (Ubuntu, VPC, Security Groups)
-- **Highlights:** row locking in transactions to prevent double room assignments, automatic audit log of every change, soft deletes for clinical traceability
-> 🚧 **Under active refactoring.** I'm rebuilding this project with improved security, automated tests and a CI/CD pipeline
+- **Infrastructure:** Docker Compose (Nginx + PHP-FPM + MySQL) with non-root containers and separated networks. The original version ran on AWS EC2 (Ubuntu, VPC, Security Groups)
+- **Highlights:** granular permissions, row locking to prevent double room assignments, clinical records voided rather than deleted, audit log that includes reads of sensitive data
+- **Status:** not currently deployed. Next: Terraform, deployment pipeline, HTTPS and encrypted backups
 ---
 
 ## 🛠️ Tech stack
