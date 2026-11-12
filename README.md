@@ -1,6 +1,6 @@
 # David A. Melgarejo Terrazas
 
-**Junior Systems Administrator · DevOps & Web Development**
+**Junior Cloud & DevOps · Systems Administration · Web Development**
 📍 Granada, Spain · Open to relocation and remote work
 
 Higher Technician in Web Application Development (DAW), currently studying Network Systems Administration (ASIR). I combine a web development background with Linux and Windows Server administration, and I'm focusing on containers, cloud and automation.
@@ -10,19 +10,21 @@ Higher Technician in Web Application Development (DAW), currently studying Netwo
 ## 🚀 Featured project
 
 ### [ResiERP](https://github.com/MrDaviidMT/ResiERP): management system for care homes
-Web ERP to manage residents, medical records, medication, incidents, staff time tracking and visits, with role-based access for 10 staff profiles.
+Web ERP to manage residents, medical records, medication, incidents, staff time tracking and visits, with role-based access for 9 staff profiles.
 
 - **Stack:** Laravel · MySQL · Tailwind CSS · Alpine.js
 - **Infrastructure:** Docker Compose (Nginx + PHP-FPM + MySQL) with non-root containers and separated networks. The original version ran on AWS EC2 (Ubuntu, VPC, Security Groups)
+- **CI/CD:** GitHub Actions pipeline with code style, 230+ tests on SQLite and MySQL, dependency audit and Trivy image scanning
 - **Highlights:** granular permissions, row locking to prevent double room assignments, clinical records voided rather than deleted, audit log that includes reads of sensitive data
 - **Status:** not currently deployed. Next: Terraform, deployment pipeline, HTTPS and encrypted backups
+
 ---
 
 ## 🛠️ Tech stack
 
 **Systems:** Linux · Windows Server · Active Directory · LDAP · Samba · NFS · Nginx · Apache
 
-**DevOps & Cloud:** Docker · Docker Compose · Git · GitHub · AWS (EC2, VPC)
+**DevOps & Cloud:** Docker · Docker Compose · GitHub Actions · CI/CD · Trivy · Git · GitHub · AWS (EC2, VPC)
 
 **Development:** PHP · Laravel · JavaScript · Alpine.js · HTML · CSS · Tailwind CSS
 
@@ -33,13 +35,11 @@ Web ERP to manage residents, medical records, medication, incidents, staff time 
 ---
 
 ## 📚 Currently learning
-
-- [ ] Network services
-- [ ] PowerShell & Windows Server administration
-- [ ] GitHub Actions: CI pipeline for ResiERP (tests + linting)
-- [ ] Prometheus & Grafana: monitoring with Telegram alerts
-- [ ] Terraform: infrastructure as code on AWS
-- [ ] Kubernetes
+- Network services
+- PowerShell & Windows Server administration
+- Prometheus & Grafana: monitoring with Telegram alerts
+- Terraform: infrastructure as code on AWS
+- Kubernetes
 
 ---
 
